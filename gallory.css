@@ -1,0 +1,42 @@
+#image {
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+body
+{
+    text-align: center;
+    background-color:#FFF8F0;
+}
+div {
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 500px;
+  padding: 40px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px gray;
+}
+button:hover {
+    opacity: 0.8;
+    background-color: #D68910;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    
+}
+input[type="button"]{
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    background-color: #F39C12;
+    color: white;
+    transition: 0.3s;
+}
+h1 {
+    font-family: georgia, serif;
+    font-weight: bold;
+    color: #E67E22;
+}
+
+  
