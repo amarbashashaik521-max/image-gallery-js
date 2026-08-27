@@ -1,5 +1,11 @@
 
-let images = ["welcome.jpeg" , "rohit2.jpeg" , "rohit sharma.jpeg" , "rohit4.jpeg" ,"end.jpeg"];
+let images = [
+    "./welcome.jpeg",
+    "./rohit2.jpeg",
+    "./rohit%20sharma.jpeg",
+    "./rohit4.jpeg",
+    "./end.jpeg"
+];
 let current=0;
 document.getElementById("image").src = images[current];
 function next()
