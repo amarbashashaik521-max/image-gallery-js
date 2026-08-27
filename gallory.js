@@ -1,8 +1,5 @@
 
 let images = ["welcome.jpeg" , "rohit2.jpeg" , "rohit sharma.jpeg" , "rohit4.jpeg" ,"end.jpeg"];
-</script>
-
-<script>
 let current=0;
 document.getElementById("image").src = images[current];
 function next()
